@@ -1,0 +1,44 @@
+{
+    "name": "webui",
+    "version": "0.0.1",
+    "private": false,
+    "workspaces": [
+        "packages/*"
+    ],
+    "description": "",
+    "scripts": {
+        "build": "node esbuild.mjs",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/wasp-ui/webui.git"
+    },
+    "keywords": [
+        "react",
+        "ui",
+        "component"
+    ],
+    "author": "cskyer",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/wasp-ui/webui/issues"
+    },
+    "homepage": "https://github.com/wasp-ui/webui#readme",
+    "dependencies": {
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.9.0",
+        "eslint": "^9.9.0",
+        "eslint-plugin-react": "^7.35.0",
+        "glob": "^11.0.0",
+        "globals": "^15.9.0",
+        "lerna": "^8.1.8",
+        "prettier": "3.3.3",
+        "tsup": "^8.2.4",
+        "typescript": "^5.5.4",
+        "typescript-eslint": "^8.2.0"
+    }
+}
